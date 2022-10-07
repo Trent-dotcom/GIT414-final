@@ -1,0 +1,206 @@
+#desktopMenu {
+    display: none;
+}
+
+#emailSignup h2 {
+    display: none;
+}
+
+#close {
+    text-align: center;
+    grid-area: a;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a a"
+        "b c";
+}
+
+footer section {
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 1.5em;
+    border-bottom: 2px solid;
+}
+
+#mobileMenu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#mobileMenu nav ul,
+#mobileMenu nav ul li {
+    display: none;
+}
+
+#hamburger {
+    max-width: 70px;
+}
+
+main section:first-of-type h2,
+main section:first-of-type p {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 15%;
+}
+
+#booksSec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.393);
+}
+
+#booksSec img {
+    max-width: 50%;
+}
+
+.eventdet {
+    border-bottom: 2px solid black;
+
+}
+
+.eventdet button {
+    background: transparent;
+    border: 2px solid black;
+    padding: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.eventdet ul li {
+    list-style-type: none;
+}
+
+#emailSignup form {
+    display: flex;
+    flex-direction: column;
+}
+
+#emailSignup input {
+    padding: 5%;
+    border: 3px solid black;
+}
+
+#emailSignup form button {
+    background-color: rgb(52, 50, 50);
+    color: white;
+    padding: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#emailSignup h2 {
+    text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+    #booksSec section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #events section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "a b"
+            "c c";
+    }
+
+    #container #last {
+        grid-area: c;
+    }
+
+    #container #last input {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    nav {
+        width: 100%;
+    }
+
+    main section:first-of-type h2 {
+        margin-bottom: 5% !important;
+    }
+
+    #desktopMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #desktopMenu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 30%;
+        list-style-type: none;
+        position: absolute;
+        right: 30px;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #booksSec section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #container form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #emailSignup h2 {
+        display: inline-block;
+    }
+
+    #emailSignup form h2 {
+        display: none;
+    }
+
+    #emailSignup form {
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+    #emailSignup form button {
+        margin-top: 0%;
+        padding: 2%;
+    }
+
+}
