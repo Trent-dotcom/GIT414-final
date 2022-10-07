@@ -1,2 +1,249 @@
-/* OBFUSCATED BY CSSOBFUSCATOR.COM at 2022/10/07 04:27:14 */
-[class~=eventdet] button{background:transparent;}[class~=eventdet] button{border-left-width:.125pc;}#desktopMenu,#mobileMenu nav ul,#emailSignup h2{display:none;}#booksSec img{max-width:50%;}main section:first-of-type p,main section:first-of-type h2,#close,footer section{text-align:center;}#close{grid-area:a;}#emailSignup form,#booksSec,#mobileMenu{display:flex;}#emailSignup form{flex-direction:column;}#emailSignup form button{background-color:#343232;}[class~=eventdet] button,[class~=eventdet]{border-bottom-width:.125pc;}footer{display:grid;}[class~=eventdet] button{border-right-width:.125pc;}#mobileMenu{flex-direction:row;}main section:first-of-type h2,main section:first-of-type p{max-width:80%;}[class~=eventdet] button{border-top-width:.125pc;}#mobileMenu,#booksSec{width:100%;}#mobileMenu,#booksSec{align-items:center;}#mobileMenu{justify-content:space-between;}#emailSignup input{padding-left:5%;}#emailSignup form button{color:white;}[class~=eventdet],[class~=eventdet] button{border-bottom-style:solid;}#emailSignup form button{padding-left:3%;}#emailSignup form button{padding-bottom:3%;}#booksSec,#mobileMenu{padding-left:12pt;}main section:first-of-type h2,main section:first-of-type p,#booksSec{margin-left:auto;}#emailSignup input{padding-bottom:5%;}#booksSec,#mobileMenu{padding-bottom:12pt;}#emailSignup input{padding-right:5%;}[class~=eventdet] ul li{list-style-type:none;}main section:first-of-type h2,main section:first-of-type p{margin-bottom:15%;}[class~=eventdet] button,[class~=eventdet]{border-bottom-color:black;}#mobileMenu,#booksSec{padding-right:12pt;}#mobileMenu,#booksSec{padding-top:12pt;}#booksSec,#mobileMenu{box-sizing:border-box;}#hamburger{max-width:52.5pt;}#booksSec,main section:first-of-type p,main section:first-of-type h2{margin-right:auto;}[class~=eventdet] button,#emailSignup input{border-left-style:solid;}footer{grid-template-rows:1fr 3fr;}main section:first-of-type p,main section:first-of-type h2,#booksSec{margin-top:auto;}#emailSignup input{padding-top:5%;}#emailSignup input{border-left-width:.03125in;}#emailSignup input{border-bottom-width:.03125in;}#booksSec{flex-direction:column;}[class~=eventdet] button,#emailSignup input{border-right-style:solid;}#emailSignup input{border-right-width:.03125in;}#emailSignup input,[class~=eventdet] button{border-top-style:solid;}[class~=eventdet] button,#emailSignup input{border-left-color:black;}#emailSignup form button{padding-right:3%;}footer h4{font-size:1.5em;}#emailSignup input{border-top-width:.03125in;}footer h4{border-bottom-width:.020833333in;}#emailSignup form button{padding-top:3%;}#emailSignup input,[class~=eventdet] button{border-right-color:black;}#emailSignup input,[class~=eventdet] button{border-top-color:black;}#booksSec{margin-bottom:auto;}footer h4,#emailSignup input{border-bottom-style:solid;}#emailSignup h2,#booksSec{text-align:center;}#booksSec{background-color:rgba(128,128,128,.393);}[class~=eventdet],[class~=eventdet] button{border-image:none;}#emailSignup form button{margin-bottom:5%;}footer h4{border-bottom-color:currentColor;}#mobileMenu nav ul li{display:none;}footer h4{border-image:none;}[class~=eventdet] button{padding-left:5%;}[class~=eventdet] button{padding-bottom:2%;}#emailSignup input{border-bottom-color:black;}[class~=eventdet] button{padding-right:5%;}[class~=eventdet] button{padding-top:2%;}#emailSignup input{border-image:none;}#emailSignup form button{margin-top:5%;}[class~=eventdet] button{margin-left:10%;}footer{grid-template-columns:1fr 1fr;}[class~=eventdet] button{margin-bottom:10%;}footer{grid-template-areas:"a a" "b c";}@media only screen and (min-width: 700px){#container,#events section,#booksSec section{display:grid;}#events section,#container,#booksSec section{grid-template-columns:1fr 1fr;}#container{grid-template-areas:"a b" "c c";}#container #last input{width:100%;}#container #last{grid-area:c;}}@media only screen and (min-width: 900px){main section:first-of-type h2{margin-bottom:5% !important;}#emailSignup form h2{display:none;}#emailSignup form button{margin-top:0%;}#container form,#booksSec section,#desktopMenu ul,#desktopMenu{display:flex;}#container,#emailSignup form,#desktopMenu ul,#booksSec section,#container form,#desktopMenu{flex-direction:row;}#emailSignup form,#container form,#desktopMenu ul{justify-content:space-evenly;}#emailSignup form button{padding-left:2%;}#desktopMenu ul{width:30%;}#emailSignup form button{padding-bottom:2%;}#desktopMenu ul{list-style-type:none;}#desktopMenu ul{position:absolute;}#desktopMenu ul{right:.3125in;}#desktopMenu{justify-content:space-between;}#mobileMenu{display:none;}#container{display:flex;}#emailSignup form button{padding-right:2%;}#emailSignup form button{padding-top:2%;}#emailSignup h2{display:inline-block;}nav{width:100%;}}
+#desktopMenu {
+    display: none;
+}
+
+#about h2,
+#about p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#about p {
+    margin-bottom: 20%;
+}
+
+footer,
+#events,
+#booksSec {
+    background-color: rgba(128, 128, 128, 0.648);
+}
+
+#events h2 {
+    margin-top: 0%;
+}
+
+#heroSec {
+    background: url("/images/hero.jpeg");
+}
+
+#emailSignup h2 {
+    display: none;
+}
+
+#close {
+    text-align: center;
+    grid-area: a;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a a"
+        "b c";
+}
+
+footer section {
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 1.5em;
+    border-bottom: 2px solid;
+}
+
+#mobileMenu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#mobileMenu nav ul,
+#mobileMenu nav ul li {
+    display: none;
+}
+
+#hamburger {
+    max-width: 70px;
+}
+
+main section:first-of-type h2,
+main section:first-of-type p {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 15%;
+}
+
+#booksSec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+#booksSec img {
+    max-width: 50%;
+}
+
+.eventdet {
+    border-bottom: 2px solid black;
+
+}
+
+.eventdet button {
+    background: transparent;
+    border: 2px solid black;
+    padding: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.eventdet ul li {
+    list-style-type: none;
+}
+
+#emailSignup form {
+    display: flex;
+    flex-direction: column;
+}
+
+#emailSignup input {
+    padding: 5%;
+    border: 3px solid black;
+}
+
+#emailSignup form button {
+    background-color: rgb(52, 50, 50);
+    color: white;
+    padding: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#emailSignup h2 {
+    text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+    #heroSec {
+        background: url("/images/hero.jpg");
+    }
+
+    #booksSec section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #events section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "a b"
+            "c c";
+    }
+
+    #container #last {
+        grid-area: c;
+    }
+
+    #container #last input {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #heroSec {
+        background-image: url("/images/hero.jpg");
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    main section:first-of-type h2 {
+        margin-bottom: 5% !important;
+    }
+
+    #desktopMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #desktopMenu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 30%;
+        list-style-type: none;
+        position: absolute;
+        right: 30px;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #container form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #emailSignup h2 {
+        display: inline-block;
+    }
+
+    #emailSignup form h2 {
+        display: none;
+    }
+
+    #emailSignup form {
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+    #emailSignup form button {
+        margin-top: 0%;
+        padding: 2%;
+    }
+
+    .eventdet {
+        border-bottom: 2px solid black;
+        width: 20%;
+    }
+
+    #events section {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

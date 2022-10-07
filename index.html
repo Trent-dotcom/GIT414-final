@@ -6,41 +6,46 @@
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="the worlds best books for read">
+    <meta name="keywords" content="book store">
     <title>Book store</title>
 </head>
 
 <body>
-    <header>
-        <div id="mobileMenu">
-            <h1>Books</h1>
-            <nav>
-                <div><img src="icons8-menu-24.png" alt="menu acordian" id="hamburger"></div>
-                <ul>
-                    <li>about</li>
-                    <li>home</li>
-                    <li>books</li>
-                </ul>
-            </nav>
-        </div>
-        <div id="desktopMenu">
-            <h1>Books</h1>
-            <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Home</li>
-                    <li>Books</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section>
+    <div id="heroSec">
+        <header>
+            <div id="mobileMenu">
+                <h1>Books</h1>
+                <nav>
+                    <div><img src="icons8-menu-24.png" alt="menu acordian" id="hamburger"></div>
+                    <ul>
+                        <li>about</li>
+                        <li>home</li>
+                        <li>books</li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="desktopMenu">
+                <h1>Books</h1>
+                <nav>
+                    <ul>
+                        <li>About</li>
+                        <li>Home</li>
+                        <li>Books</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="about">
             <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis impedit sit atque, sed vitae
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis impedit sit atque, sed
+                vitae
                 culpa? Unde maiores magni tempore, voluptatibus repellendus, neque ea voluptate eum enim laudantium
                 dolor.
                 Magnam.</p>
         </section>
+    </div>
+    <main>
         <section id="booksSec">
             <h2>books</h2>
             <p>Duis aute irure dolor in reprehenderit
@@ -80,71 +85,73 @@
                     <p class="year">Year</p>
                 </div>
             </section>
-            <section id="events">
-                <h2>Events</h2>
-                <p>Duis aute irure dolor in reprehenderit
-                    in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-                <section>
-                    <div class="eventdet">
-                        <h4>Location</h4>
-                        <ul>
-                            <li>Date</li>
-                            <li>Time</li>
-                            <li>Address</li>
-                        </ul>
-                        <button>Tickets</button>
-                    </div>
-                    <div class="eventdet">
-                        <h4>Location</h4>
-                        <ul>
-                            <li>Date</li>
-                            <li>Time</li>
-                            <li>Address</li>
-                        </ul>
-                        <button>Tickets</button>
-                    </div>
-                    <div class="eventdet">
-                        <h4>Location</h4>
-                        <ul>
-                            <li>Date</li>
-                            <li>Time</li>
-                            <li>Address</li>
-                        </ul>
-                        <button>Tickets</button>
-                    </div>
-                    <div class="eventdet">
-                        <h4>Location</h4>
-                        <ul>
-                            <li>Date</li>
-                            <li>Time</li>
-                            <li>Address</li>
-                        </ul>
-                        <button>Tickets</button>
-                    </div>
-                </section>
+        </section>
+        <section id="events">
+            <h2>Events</h2>
+            <p>Duis aute irure dolor in reprehenderit
+                in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.</p>
+            <section>
+                <div class="eventdet">
+                    <h3>Location</h3>
+                    <ul>
+                        <li>Date</li>
+                        <li>Time</li>
+                        <li>Address</li>
+                    </ul>
+                    <button>Tickets</button>
+                </div>
+                <div class="eventdet">
+                    <h4>Location</h4>
+                    <ul>
+                        <li>Date</li>
+                        <li>Time</li>
+                        <li>Address</li>
+                    </ul>
+                    <button>Tickets</button>
+                </div>
+                <div class="eventdet">
+                    <h4>Location</h4>
+                    <ul>
+                        <li>Date</li>
+                        <li>Time</li>
+                        <li>Address</li>
+                    </ul>
+                    <button>Tickets</button>
+                </div>
+                <div class="eventdet">
+                    <h4>Location</h4>
+                    <ul>
+                        <li>Date</li>
+                        <li>Time</li>
+                        <li>Address</li>
+                    </ul>
+                    <button>Tickets</button>
+                </div>
             </section>
-            <section id="emailSignup">
+        </section>
+        <section id="emailSignup">
+            <h2>Newsletter sign up</h2>
+            <form action="">
                 <h2>Newsletter sign up</h2>
-                <form action="">
-                    <h2>Newsletter sign up</h2>
-                    <div id="container">
-                        <div>
-                            <label for="fname">First Name</label>
-                            <input type="text" id="name" name="name" value="First Name">
-                        </div>
-                        <div>
-                            <label for="lName">Last Name</label>
-                            <input type="text" id="lname" name="lname" value="Last Name">
-                        </div>
-                        <div id="last">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" value="Email">
-                        </div>
+                <div id="container">
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="name" name="name" value="First Name">
                     </div>
-                    <button>sign up</button>
-                </form>
-            </section>
+                    <div>
+                        <label for="lName">Last Name</label>
+                        <input type="text" id="lname" name="lname" value="Last Name">
+                    </div>
+                    <div id="last">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" value="Email">
+                    </div>
+                </div>
+                <button>sign up</button>
+            </form>
+        </section>
+        </section>
     </main>
     <footer>
         <section id="close">
@@ -154,14 +161,14 @@
                 eiusmod tempor incididunt ut labore et</p>
         </section>
         <section id="footerBooks">
-            <h4>books</h4>
+            <h3>books</h3>
             <p>book</p>
             <p>book</p>
             <p>book</p>
             <p>book</p>
         </section>
         <section id="footerEvents">
-            <h4>events</h4>
+            <h3>events</h3>
             <p>event</p>
             <p>event</p>
             <p>event</p>
